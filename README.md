@@ -1,0 +1,1 @@
+# Gruppo-Scout-Vigevano-1

@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/bootstrap.min.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/front-page.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/fontawesome.min.css" type="text/css" media="all" />
         <!-- Definisce l'head del sito -->
         <?php wp_head(); ?>
     </head>
@@ -35,7 +36,7 @@
                 <div class="announcement text-center">
                     <span>TESTO DA AGGIUNGERE IN BE</span>
                 </div>
-                <nav class="nav navbar navbar-expand-lg navbar-expand-md navbar-dark ">
+                <nav class="container nav navbar navbar-expand-lg navbar-dark ">
                     <a href="/" class="navbar-brand">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo_bianco.svg" width="50" height="30" alt="logo">
                     </a>
@@ -80,7 +81,7 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="ml-5 mt-5">
+                <div class=" mb-5 ml-5 mt-5 container">
                     <h1 class="header-title">Benvenuti sul sito del Gruppo Scout Vigevano 1</h1>
                 </div>
             </div>

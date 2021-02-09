@@ -18,7 +18,6 @@ include('template-parts/header-home.php')
         </div>
     </div>
 </section>
-<?php include('template-parts/test.php')?>
 <section class="branches bg-blue mt-5">
     <h2 class="text-center pt-5">Branche</h2>
     <div class="container d-flex justify-content-center">

@@ -8,23 +8,44 @@
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/popper.min.js" ></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.min.js" ></script>
     <footer>
-        <div class="row">
-            <div class="">
-                <p>Seguici sui social</p>
-            </div>
-            <div class="">
-                <p>Hai ulteriori dubbi?</p>
-                <p>Contattaci qui</p>
-                <p>
-                    <a mailto="info@scoutvigevano1.it">info@scoutvigevano1.it</a>
-                </p>
-            </div>
-            <div class="">
-                <p>Naviga</p>
-                <div></div>
+        <div class="container">
+            <div class=" row justify-content-start">
+                <div class="mt-2 mb-2 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <span>Seguici sui social</span>
+                    <br>
+                    <div class="mt-2">
+                        <a target="_blank" href=""><i class="fab fa-2x fa-facebook-square"></i></a>
+                        <a target="_blank" href=""><i class="fab fa-2x fa-twitter-square"></i></a>
+                        <a target="_blank" href=""><i class="fab fa-2x fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <span>
+                        Hai ulteriori dubbi?
+                        <br>
+                        Contattaci qui
+                        <br>
+                        <a class="footer-mailto" mailto="info@scoutvigevano1.it">info@scoutvigevano1.it</a>
+                    </span>
+                </div>
+                <div class="mt-2 mb-2 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <span>Naviga</span>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="">home</a>
+                        </div>
+                        <div class="col-6"><a href="">braci</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"><a href="">chi siamo</a></div>
+                        <div class="col-6"><a href="">contatti</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"><a href="">Branche</a></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div></div>
         <?php wp_footer(); ?> 
     </footer>
 

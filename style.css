@@ -100,3 +100,20 @@ header .announcement span {
     color: white;
 }
 
+footer {
+    background-color: #36971f;
+    color: white;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+    font-weight: initial;
+}
+footer a:hover {
+    color: white;
+}
+footer .footer-mailto{
+    cursor: pointer;
+}
+

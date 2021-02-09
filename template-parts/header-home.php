@@ -81,7 +81,7 @@
                         </ul>
                     </div>
                 </nav>
-                <div class=" mb-5 ml-5 mt-5 container">
+                <div class=" mb-5 mt-5 container">
                     <h1 class="header-title">Benvenuti sul sito del Gruppo Scout Vigevano 1</h1>
                 </div>
             </div>

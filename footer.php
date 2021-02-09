@@ -46,6 +46,13 @@
                 </div>
             </div>
         </div>
+        <div class="announcement text-center">
+            <div class=" row justify-content-center">
+                <div class="mt-2 col-12 col-sm-12 col-md-auto col-lg-auto col-xl-auto">Sitemap</div>
+                <div class="mt-2 col-12 col-sm-12 col-md-auto col-lg-auto col-xl-auto">Privacy Policy</div>
+                <div class="mt-2 col-12 col-sm-12 col-md-auto col-lg-auto col-xl-auto">© 2020 Copyright: Coding Bunker</div>
+            </div>
+        </div>
         <?php wp_footer(); ?> 
     </footer>
 

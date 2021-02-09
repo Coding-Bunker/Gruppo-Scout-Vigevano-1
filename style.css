@@ -79,7 +79,7 @@ header .btn-outline-light:hover, header .btn-outline-light:focus {
 header .announcement {
     background-color: #323639;
     width: 100%;
-    max-height: 2rem;
+    min-height: 2rem;
 }
 header .announcement span {
     color: white;
@@ -121,6 +121,19 @@ footer a:hover {
 }
 footer .footer-mailto {
     cursor: pointer;
+}
+footer .announcement {
+    background-color: #323639;
+    width: 100%;
+    min-height: 2rem;
+    font-size: xx-small;
+    font-weight: normal;
+}
+footer .announcement .row {
+    width: 100%;
+}
+footer .announcement span {
+    color: white;
 }
 
 /* END FOOTER */

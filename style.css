@@ -107,9 +107,11 @@ section.bg-blue {
 
 /* FOOTER */
 footer {
+    margin-top: 5vh;
     background-color: #36971f;
     color: white;
     font-weight: bold;
+    
 }
 
 footer a {

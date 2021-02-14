@@ -63,7 +63,8 @@ header .btn-outline-light {
     width: min-content;
     padding: 8px 8px 8px 8px !important;
 }
-header .btn-outline-light:hover, header .btn-outline-light:focus {
+header .btn-outline-light:hover,
+header .btn-outline-light:focus {
     background-color: transparent;
     border-color: #f8f9fa !important;
     color: #f8f9fa !important;
@@ -105,13 +106,44 @@ section.bg-blue {
     width: 100px;
 }
 
+/* SECTION JOIN GROUP */
+
+.join-group .jumbotron {
+    -webkit-box-shadow: 7px 16px 80px 5px rgba(199, 229, 255, 1);
+    -moz-box-shadow: 7px 16px 80px 5px rgba(199, 229, 255, 1);
+    box-shadow: 7px 16px 80px 5px rgba(199, 229, 255, 1);
+    background-color: #fff;
+}
+
+.join-group .jumbotron form button {
+    width: 100%;
+}
+.join-group .jumbotron label {
+    font-weight: bold;
+}
+.join-group .info {
+    width: fit-content;
+    margin: auto;
+}
+.join-group .info p {
+    font-weight: bold;
+    font-size: larger;
+}
+.join-group .info a {
+    font-weight: bold;
+}
+#join-group-form label.error {
+    color: red;
+    font-weight: bold;
+}
+/* END SECTION JOIN GROUP */
+
 /* FOOTER */
 footer {
     margin-top: 5vh;
     background-color: #36971f;
     color: white;
     font-weight: bold;
-    
 }
 
 footer a {

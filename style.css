@@ -106,6 +106,17 @@ section.bg-blue {
     width: 100px;
 }
 
+/* GALLERY */
+.tz-gallery{
+    margin-top: 40px;
+}
+.gallery{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
 /* SECTION JOIN GROUP */
 
 .join-group .jumbotron {

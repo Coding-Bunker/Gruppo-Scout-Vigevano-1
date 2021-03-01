@@ -6,7 +6,7 @@ include('template-parts/header-home.php')
     <div class="container">
         <div class="row mt-5">
             <div class="col">
-                <img src="http://via.placeholder.com/300x500" alt="Immagine chi siamo" />
+                <img src="assets/images/who-we-are.png" alt="Chi siamo" />
             </div>
             <div class="col">
                 <h2>Chi siamo</h2>

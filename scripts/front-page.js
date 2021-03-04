@@ -5,7 +5,7 @@ $(document).ready(function () {
         return phone_number.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/i)
     }, "Email non valida");
     $.validator.addMethod("phoneCustom", function (phone_number, element) {
-        return phone_number.match(/^[+ 0-9]*$/i)
+        return phone_number.match(/^[+ 0-9]$/i)
     }, "Telefono non valido");
 
     $("#join-group-form").validate({

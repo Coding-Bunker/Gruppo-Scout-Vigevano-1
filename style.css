@@ -107,42 +107,48 @@ section.bg-blue {
 }
 /*WHO WE ARE*/
 
-.col h4{ /*Text*/
-    font-family: Roboto;
+/* .col h4{ /*Text*/
+/* font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 190%;
 
     color: #000000;
-}
+} */
 
-.col h2{ /*Title*/
-    font-family: Roboto;
+.who-we-are h3 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.who-we-are img{
+    max-height: 600px;
+}
+/* .col h2 {
+    /*Title*/
+    /* font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
-    
-    color: #1C1C1E;
-}
+
+    color: #1c1c1e;
+} */
 /* GALLERY */
-.tz-gallery{
+.tz-gallery {
     margin-top: 40px;
 }
-.gallery{
+.gallery {
     width: 200px;
     height: 200px;
     margin: 10px;
-    
 }
 
 /* SECTION JOIN GROUP */
 
 .join-group .jumbotron {
-    -webkit-box-shadow: 7px 16px 80px 5px rgba(199, 229, 255, 1);
-    -moz-box-shadow: 7px 16px 80px 5px rgba(199, 229, 255, 1);
-    box-shadow: 7px 16px 80px 5px rgba(199, 229, 255, 1);
+    box-shadow: 0px 30px 60px rgba(111, 125, 197, 0.18);
     background-color: #fff;
 }
 
@@ -182,8 +188,6 @@ section.bg-blue {
     font-weight: bold;
     font-size: medium;
 }
-
-
 
 .separator {
     width: 100%;

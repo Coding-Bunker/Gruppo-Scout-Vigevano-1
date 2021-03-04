@@ -4,7 +4,7 @@
 
         </main>
     </body>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-3.2.1.min.js" ></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-3.6.0.min.js" ></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/popper.min.js" ></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.min.js" ></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.validate.min.js" ></script>

@@ -137,7 +137,27 @@ section.bg-blue {
     font-weight: bold;
 }
 /* END SECTION JOIN GROUP */
+/* START ALWAYS READY */
+.always-ready .title,
+.always-ready .subtitle {
+    font-weight: bold;
+}
 
+.always-ready .number {
+    font-weight: bold;
+    font-size: xx-large;
+}
+.always-ready .text-number {
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+
+.separator {
+    width: 100%;
+}
+/* END ALWAYS READY */
 /* FOOTER */
 footer {
     margin-top: 5vh;
@@ -171,3 +191,15 @@ footer .announcement span {
 }
 
 /* END FOOTER */
+.c-orange {
+    color: #e0a800;
+}
+.c-red {
+    color: #dc3545;
+}
+.c-green {
+    color: #28a745;
+}
+.c-blue {
+    color: #1b3de4;
+}

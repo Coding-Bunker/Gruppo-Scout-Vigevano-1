@@ -111,7 +111,7 @@ include('template-parts/header-home.php')
     </div>
 </section>
 
-<!-- <div class="container gallery-container">
+<div class="container gallery-container">
 
     <h1>Specialità…
         Fotografo!</h1>
@@ -154,7 +154,7 @@ include('template-parts/header-home.php')
 
     </div>
 
-</div> -->
+</div>
 
 <section class="join-group bg-blue mt-5">
     <h2 class="text-center pt-5 mb-5">Entra nel gruppo</h2>

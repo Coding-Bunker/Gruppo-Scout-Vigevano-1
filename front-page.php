@@ -6,7 +6,7 @@ include('template-parts/header-home.php')
     <div class="container">
         <div class="row mt-5">
             <div class="col">
-                <img src="assets/images/who-we-are.png" alt="Chi siamo" />
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/who-we-are.png" alt="Chi siamo" />
             </div>
             <div class="col">
                 <h2>Chi siamo</h2>
@@ -111,7 +111,7 @@ include('template-parts/header-home.php')
     </div>
 </section>
 
-<div class="container gallery-container">
+<!-- <div class="container gallery-container">
 
     <h1>Specialità…
         Fotografo!</h1>
@@ -154,7 +154,7 @@ include('template-parts/header-home.php')
 
     </div>
 
-</div>
+</div> -->
 
 <section class="join-group bg-blue mt-5">
     <h2 class="text-center pt-5 mb-5">Entra nel gruppo</h2>

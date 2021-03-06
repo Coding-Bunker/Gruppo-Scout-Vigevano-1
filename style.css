@@ -58,6 +58,9 @@ header .img-header {
 .navbar .btn-outline {
     width: max-content;
 }
+.navbar-light .navbar * {
+    color: rgba(255, 255, 255, 0.5);
+}
 
 .header-title {
     color: white;

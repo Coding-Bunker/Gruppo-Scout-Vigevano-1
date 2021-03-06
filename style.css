@@ -53,8 +53,12 @@ This theme, like WordPress, is licensed under the GPL.
 header .img-header {
     background-image: url("./assets/images/home.jpg");
     background-repeat: round;
-    min-height: 450px;
+    min-height: 500px;
 }
+.navbar .btn-outline {
+    width: max-content;
+}
+
 .header-title {
     color: white;
     width: 30%;
@@ -69,7 +73,13 @@ header .btn-outline-light:focus {
     border-color: #f8f9fa !important;
     color: #f8f9fa !important;
 }
-
+.light .btn-outline {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.dark .btn-outline {
+    border-color: #f8f9fa;
+}
 .img-responsive {
     display: block;
     max-width: 100%;
@@ -95,12 +105,15 @@ section.bg-blue {
     border-color: #e0a800;
 }
 .bc-green {
-    border-color: #28a745;
+    border-color: #36971f;
 }
 .bc-red {
     border-color: #dc3545;
 }
 
+.bg-green {
+    background-color: #36971f;
+}
 .card .card-body img {
     height: 100px;
     width: 100px;
@@ -122,12 +135,12 @@ section.bg-blue {
     font-style: normal;
     font-weight: 400;
 }
-.who-we-are img{
+.who-we-are img {
     max-height: 600px;
 }
 /* .col h2 {
     /*Title*/
-    /* font-family: Roboto;
+/* font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -233,8 +246,26 @@ footer .announcement span {
     color: #dc3545;
 }
 .c-green {
-    color: #28a745;
+    color: #36971f;
 }
 .c-blue {
     color: #1b3de4;
 }
+.c-white {
+    color: white
+}
+
+/* START 404 PAGE */
+.error-page .text-error {
+    color: #934b3f;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.error-page .text-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+/* END 404 PAGE */
+

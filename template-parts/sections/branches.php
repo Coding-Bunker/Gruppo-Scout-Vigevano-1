@@ -1,4 +1,4 @@
-<section class="branches bg-blue mt-5">
+<section class="branches bg-alternative mt-5">
     <h2 class="text-center pt-5">Branche</h2>
     <div class="container d-flex justify-content-center">
         <div class="row ">

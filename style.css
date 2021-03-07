@@ -100,7 +100,7 @@ header .announcement span {
 }
 /* END HEADER */
 
-section.bg-blue {
+section.bg-alternative {
     background-color: #fbfcfe;
 }
 
@@ -255,7 +255,7 @@ footer .announcement span {
     color: #1b3de4;
 }
 .c-white {
-    color: white
+    color: white;
 }
 
 /* START 404 PAGE */
@@ -272,3 +272,49 @@ footer .announcement span {
 }
 /* END 404 PAGE */
 
+/* PAGINA CONTATTI */
+
+.page-contacts .subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #707070;
+}
+.page-contacts h1 {
+    margin: 0;
+}
+
+.page-contacts .contacts-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3b8d2e;
+}
+/* END PAGINA CONTATTI */
+
+/* PAGINA CHI SIAMO */
+.page-who-we-are img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.page-who-we-are .carousel .role {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #707070;
+}
+.page-who-we-are .carousel .name {
+    font-weight: bold;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-next,
+.carousel-control-prev {
+    width: 7%;
+}
+/* FINE PAGINA CHI SIAMO */

@@ -1,11 +1,14 @@
 <?php get_header(); ?>
 
-<div class="page-container"> <!-- o qualsiasi container tu voglia mettere (main, div, classe diversa, ecc) -->
   <?php
     if ( is_page('chi-siamo') ) {
-      get_template_part( 'template-parts/page', 'chisiamo' );
+      get_template_part( 'template-parts/page', 'chi-siamo' );
     }
   ?>
-</div><!-- .page-container -->
+  <?php
+    if ( is_page('contatti') ) {
+      get_template_part( 'template-parts/page', 'contatti' );
+    }
+  ?>
 
 <?php get_footer(); ?>

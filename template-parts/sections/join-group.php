@@ -1,4 +1,4 @@
-<section class="join-group bg-alternative mt-5">
+<section class="join-group bg-alternative">
     <h2 class="text-center pt-5 mb-5">Entra nel gruppo</h2>
     <div class="container">
         <div class="row">

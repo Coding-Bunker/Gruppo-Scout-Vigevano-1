@@ -36,9 +36,9 @@
 </section>
 <?php 
 
-include('template-parts/sections/where-we-are.php')
+include('sections/where-we-are.php')
 ?>
 <?php 
 
-include('template-parts/sections/join-group.php')
+include('sections/join-group.php')
 ?>

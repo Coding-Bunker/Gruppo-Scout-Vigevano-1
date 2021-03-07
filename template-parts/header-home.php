@@ -47,10 +47,10 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="<?php echo site_url('/'); ?>">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Chi siamo <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="<?php echo site_url('/chi-siamo'); ?>">Chi siamo <span class="sr-only">(current)</span></a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -73,7 +73,7 @@
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contatti <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="<?php echo site_url('/contatti'); ?>">Contatti <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link btn btn-outline-light" href="#">Entra nel gruppo</a>

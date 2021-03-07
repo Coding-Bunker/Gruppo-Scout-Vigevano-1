@@ -35,13 +35,13 @@
                     <span>Naviga</span>
                     <div class="row justify-content-sm-center justify-content-center">
                         <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6">
-                            <a href="">Home</a>
+                            <a href="<?php echo site_url('/'); ?>">Home</a>
                         </div>
                         <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6"><a href="">Braci</a></div>
                     </div>
                     <div class="row justify-content-sm-center justify-content-center">
-                        <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6"><a href="">Chi siamo</a></div>
-                        <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6"><a href="">Contatti</a></div>
+                        <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6"><a href="<?php echo site_url('/chi-siamo'); ?>">Chi siamo</a></div>
+                        <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6"><a href="<?php echo site_url('/contatti'); ?>">Contatti</a></div>
                     </div>
                     <div class="row">
                         <div class="col-3 offset-3 offset-sm-3 offset-md-0 offset-lg-0 offset-xl-0 col-sm-3 col-md-6 col-lg-6 col-xl-6"><a href="">Branche</a></div>

@@ -1,4 +1,4 @@
-<section class="always-ready mt-5">
+<section class="always-ready">
     <div class="container">
         <h2 class="title pt-5">«Estote parati»</h2>
         <p class="subtitle c-green">SEMPRE PRONTI</p>

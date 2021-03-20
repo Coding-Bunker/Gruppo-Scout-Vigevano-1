@@ -136,11 +136,21 @@ section.bg-alternative {
 } */
 
 .who-we-are h3 {
-    font-size: 15px;
+    font-size: 18px;
+    text-align: justify;
     font-style: normal;
     font-weight: 400;
 }
 .who-we-are img {
+    max-height: 600px;
+}
+.component-image-text h3 {
+    font-size: 18px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+}
+.component-image-text img {
     max-height: 600px;
 }
 /* .col h2 {

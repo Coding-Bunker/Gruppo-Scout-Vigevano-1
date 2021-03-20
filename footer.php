@@ -4,12 +4,6 @@
 
         </main>
     </body>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-3.6.0.min.js" ></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/popper.min.js" ></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.min.js" ></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.validate.min.js" ></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/waypoints.min.js" ></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.counterup.min.js" ></script>
     <footer>
         <div class="container">
             <div class=" row justify-content-start text-center text-xl-left text-lg-left text-md-center text-sm-center">
@@ -35,7 +29,7 @@
                     <span>Naviga</span>
                     <div class="row justify-content-sm-center justify-content-center">
                         <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6">
-                            <a href="<?php echo site_url('/'); ?>">Home</a>
+                            <a href="<?php echo get_home_url(); ?>">Home</a>
                         </div>
                         <div class="col-3 col-sm-3 col-md-6 col-lg-6 col-xl-6"><a href="">Braci</a></div>
                     </div>

@@ -30,6 +30,12 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/bootstrap.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/front-page.css" type="text/css" media="all" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/fontawesome.min.css" type="text/css" media="all" />
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/popper.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.validate.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/waypoints.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.counterup.min.js"></script>
     <!-- Definisce l'head del sito -->
     <?php wp_head(); ?>
 </head>
@@ -37,7 +43,7 @@
 <body>
     <header>
         <nav class="container nav navbar navbar-expand-lg navbar-light">
-            <a href="/" class="navbar-brand">
+            <a href="<?php echo get_home_url(); ?>" class="navbar-brand">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo_dark.png" width="75" height="75" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +52,7 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('/'); ?>">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?php echo get_home_url(); ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('/chi-siamo'); ?>">Chi siamo <span class="sr-only">(current)</span></a>
@@ -74,7 +80,7 @@
                         <a class="nav-link" href="<?php echo site_url('/contatti'); ?>">Contatti <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-success bg-green c-white" href="#">Entra nel gruppo</a>
+                        <a class="nav-link btn btn-success bg-green c-white" href="<?php echo site_url('/entra-nel-gruppo'); ?>">Entra nel gruppo</a>
                     </li>
                 </ul>
             </div>

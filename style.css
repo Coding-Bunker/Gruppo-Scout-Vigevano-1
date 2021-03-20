@@ -52,7 +52,9 @@ This theme, like WordPress, is licensed under the GPL.
 }
 header .img-header {
     background-image: url("./assets/images/home.jpg");
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     min-height: 500px;
 }
 .navbar .btn-outline {

@@ -11,7 +11,7 @@
                         <h6 class="card-title">Card sub-title</h6>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk
                             of the card's content.</p>
-                        <a href="#" class="btn btn-warning">SCOPRI DI PIU'</a>
+                        <a href="#" class="branche-btn btn">SCOPRI DI PIU'</a>
                     </div>
                 </div>
             </div>
@@ -21,12 +21,12 @@
                     <div class="card-body">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/EG_logo.png" />
 
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title branche-title">Card title</h5>
                         <h6 class="card-title">Card sub-title</h6>
                         <p class="card-text">Some quick example text to build on the card title and make up the
                             bulk
                             of the card's content.</p>
-                        <a href="#" class="btn btn-success">SCOPRI DI PIU'</a>
+                        <a href="#" class="branche-btn btn">SCOPRI DI PIU'</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the
                             bulk
                             of the card's content.</p>
-                        <a href="#" class="btn btn-danger">SCOPRI DI PIU'</a>
+                        <a href="#" class="branche-btn btn">SCOPRI DI PIU'</a>
                     </div>
                 </div>
             </div>

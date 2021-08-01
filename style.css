@@ -12,44 +12,25 @@ License URI: LICENSE
 This theme, like WordPress, is licensed under the GPL.
 */
 
-/* ScrollBar */
-
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: #f5f5f5;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-    background-color: #f5f5f5;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #1b3de4;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    border-radius: 10px;
-    background-color: #e41b1b;
-}
-/* end scrollBar */
 
 /* HEADER */
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
 }
+
 .navbar-nav.navbar-end {
     position: absolute;
     left: 100%;
     transform: translatex(-50%);
 }
+
 .nav .navbar-nav .nav-item {
     text-transform: uppercase;
 }
+
 header .img-header {
     background-image: url("./assets/images/home.jpg");
     background-repeat: no-repeat;
@@ -57,34 +38,44 @@ header .img-header {
     background-size: cover;
     min-height: 500px;
 }
+
 .navbar .btn-outline {
     width: max-content;
 }
+
 .navbar-light .navbar * {
     color: rgba(255, 255, 255, 0.5);
 }
 
 .header-title {
     color: white;
-    width: 30%;
+    width: 45%;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
+
 header .btn-outline-light {
     width: min-content;
     padding: 8px 8px 8px 8px !important;
 }
+
 header .btn-outline-light:hover,
 header .btn-outline-light:focus {
     background-color: transparent;
     border-color: #f8f9fa !important;
     color: #f8f9fa !important;
 }
+
 .light .btn-outline {
     background-color: #343a40;
     border-color: #343a40;
 }
+
 .dark .btn-outline {
     border-color: #f8f9fa;
 }
+
 .img-responsive {
     display: block;
     max-width: 100%;
@@ -97,9 +88,12 @@ header .announcement {
     width: 100%;
     min-height: 2rem;
 }
+
 header .announcement span {
     color: white;
 }
+
+
 /* END HEADER */
 
 section.bg-alternative {
@@ -109,9 +103,11 @@ section.bg-alternative {
 .bc-orange {
     border-color: #e0a800;
 }
+
 .bc-green {
     border-color: #36971f;
 }
+
 .bc-red {
     border-color: #dc3545;
 }
@@ -119,13 +115,14 @@ section.bg-alternative {
 .bg-green {
     background-color: #36971f;
 }
-.card .card-body img {
-    height: 100px;
-    width: 100px;
-}
+
+
 /*WHO WE ARE*/
 
+
 /* .col h4{ /*Text*/
+
+
 /* font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -140,21 +137,38 @@ section.bg-alternative {
     text-align: justify;
     font-style: normal;
     font-weight: 400;
+    line-height: 190%;
+    margin-top: 3rem;
 }
+
+.who-we-are button {
+    margin-top: 2rem;
+}
+
 .who-we-are img {
     max-height: 600px;
 }
+
+.who-we-are .content {
+    margin-top: 2rem;
+}
+
 .component-image-text h3 {
     font-size: 18px;
     text-align: justify;
     font-style: normal;
     font-weight: 400;
 }
+
 .component-image-text img {
     max-height: 600px;
 }
+
+
 /* .col h2 {
     /*Title*/
+
+
 /* font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -163,15 +177,50 @@ section.bg-alternative {
 
     color: #1c1c1e;
 } */
+
+
+/*BRANCHES*/
+
+.card .card-body img {
+    height: 100px;
+}
+
+.card .card-body .branche-btn {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-weight: 550;
+}
+
+.card .card-body .branche-title {}
+
+
+/* WHERE WE ARE */
+
+.where-we-are h3 {
+    font-size: 18px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+    margin-top: 3rem;
+}
+
+.where-we-are button {
+    margin-top: 2rem;
+}
+
+
 /* GALLERY */
+
 .tz-gallery {
     margin-top: 40px;
 }
+
 .gallery {
     width: 200px;
     height: 200px;
     margin: 10px;
 }
+
 
 /* SECTION JOIN GROUP */
 
@@ -183,26 +232,31 @@ section.bg-alternative {
 .join-group .jumbotron form button {
     width: 100%;
 }
+
 .join-group .jumbotron label {
     font-weight: bold;
 }
+
 .join-group .info {
     width: fit-content;
     margin: auto;
 }
-.join-group .info p {
-    font-weight: bold;
-    font-size: larger;
-}
+
 .join-group .info a {
     font-weight: bold;
 }
+
 #join-group-form label.error {
     color: red;
     font-weight: bold;
 }
+
+
 /* END SECTION JOIN GROUP */
+
+
 /* START ALWAYS READY */
+
 .always-ready .title,
 .always-ready .subtitle {
     font-weight: bold;
@@ -212,6 +266,7 @@ section.bg-alternative {
     font-weight: bold;
     font-size: xx-large;
 }
+
 .always-ready .text-number {
     font-weight: bold;
     font-size: medium;
@@ -220,25 +275,38 @@ section.bg-alternative {
 .separator {
     width: 100%;
 }
+
+
 /* END ALWAYS READY */
+
+
 /* FOOTER */
+
 footer {
     margin-top: 5vh;
     background-color: #36971f;
     color: white;
     font-weight: bold;
+    padding: 3rem;
+}
+
+footer i {
+    margin-right: 10px;
 }
 
 footer a {
     color: white;
     font-weight: initial;
 }
+
 footer a:hover {
     color: white;
 }
+
 footer .footer-mailto {
     cursor: pointer;
 }
+
 footer .announcement {
     background-color: #323639;
     width: 100%;
@@ -246,31 +314,41 @@ footer .announcement {
     font-size: xx-small;
     font-weight: normal;
 }
+
 footer .announcement .row {
     width: 100%;
 }
+
 footer .announcement span {
     color: white;
 }
 
+
 /* END FOOTER */
+
 .c-orange {
     color: #e0a800;
 }
+
 .c-red {
     color: #dc3545;
 }
+
 .c-green {
     color: #36971f;
 }
+
 .c-blue {
     color: #1b3de4;
 }
+
 .c-white {
     color: white;
 }
 
+
 /* START 404 PAGE */
+
 .error-page .text-error {
     color: #934b3f;
     font-size: 20px;
@@ -282,7 +360,10 @@ footer .announcement span {
     font-weight: 500;
     line-height: 48px;
 }
+
+
 /* END 404 PAGE */
+
 
 /* PAGINA CONTATTI */
 
@@ -292,6 +373,7 @@ footer .announcement span {
     line-height: 150%;
     color: #707070;
 }
+
 .page-contacts h1 {
     margin: 0;
 }
@@ -302,22 +384,29 @@ footer .announcement span {
     line-height: 28px;
     color: #3b8d2e;
 }
+
+
 /* END PAGINA CONTATTI */
 
+
 /* PAGINA CHI SIAMO */
+
 .page-who-we-are img {
     max-width: 200px;
     max-height: 200px;
 }
+
 .page-who-we-are .carousel .role {
     font-weight: 500;
     font-size: 15px;
     line-height: 150%;
     color: #707070;
 }
+
 .page-who-we-are .carousel .name {
     font-weight: bold;
 }
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important;
 }
@@ -325,8 +414,11 @@ footer .announcement span {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important;
 }
+
 .carousel-control-next,
 .carousel-control-prev {
     width: 7%!important;
 }
+
+
 /* FINE PAGINA CHI SIAMO */

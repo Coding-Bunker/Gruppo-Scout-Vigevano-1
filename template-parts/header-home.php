@@ -53,9 +53,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo get_home_url(); ?>">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-white" href="<?php echo get_home_url(); ?>">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo site_url('/chi-siamo'); ?>">Chi siamo <span class="sr-only">(current)</span></a>
@@ -83,7 +83,7 @@
                             <a class="nav-link" href="<?php echo site_url('/contatti'); ?>">Contatti <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-light" href="<?php echo site_url('/entra-nel-gruppo'); ?>">Entra nel gruppo</a>
+                            <a class="nav-link btn btn-success" href="<?php echo site_url('/entra-nel-gruppo'); ?>">Entra nel gruppo</a>
                         </li>
                     </ul>
                 </div>
